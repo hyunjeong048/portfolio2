@@ -1,0 +1,73 @@
+*{margin:0;padding:0;color:inherit;font:inherit;}
+*, :after, :before {box-sizing:border-box;}
+:root {line-height:1.5;cursor:default;overflow-wrap:break-word;
+    -webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%;-moz-tab-size:4;tab-size:4;
+    --font-italic: 'IM_FELL','pretendard', sans-serif;
+    --font-ko: 'pretendard', sans-serif;
+    --font-sm: 'DMSans','pretendard', sans-serif;
+}
+html, body {height:100%; cursor: none;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {border:0;background:none;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul{list-style: none;}
+a:hover, button:hover {
+  cursor: none;
+}
+a:hover ~ .cursor {
+  background-color: rgba(180, 140, 100, 0.9);
+  transform: translate(-50%, -50%) scale(2); /* 커서 확대 */
+}
+
+
+@font-face {
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/AkiraExpanded.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akira';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/AkiraExpanded-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DMSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/DMSans-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IM_FELL';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../font/IM_FELL_French_Canon_Italic.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'pretendard';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/Pretendard-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'pretendard';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/Pretendard-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+body{
+    background-color: #1a1a1a;
+    font-family: Akira, DMSans, IM_FELL, 'Pretendard', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1;
+    color: #e0e0e0;
+}
