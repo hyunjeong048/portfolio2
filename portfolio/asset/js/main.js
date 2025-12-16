@@ -126,27 +126,27 @@ const project1 = gsap.timeline({
     }
 })
 project1
-.from('.sc-project .project._2',{
-  scale: 0.7,
-})
-.from('.sc-project .project._3',{
-  scale: 0.7,
-})
-.from('.sc-project .project._4',{
-  scale: 0.7,
-})
-.from('.sc-project .project._5',{
-  scale: 0.7,
-})
-.from('.sc-project .project._6',{
+.from('.sc-project .project._8',{
   scale: 0.7,
 })
 .from('.sc-project .project._7',{
   scale: 0.7,
 })
-.from('.sc-project .project._8',{
+.from('.sc-project .project._6',{
   scale: 0.7,
 })
-.from('.sc-project .project._9',{
+.from('.sc-project .project._5',{
+  scale: 0.7,
+})
+.from('.sc-project .project._4',{
+  scale: 0.7,
+})
+.from('.sc-project .project._3',{
+  scale: 0.7,
+})
+.from('.sc-project .project._2',{
+  scale: 0.7,
+})
+.from('.sc-project .project._1',{
   scale: 0.7,
 })
